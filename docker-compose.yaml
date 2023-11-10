@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  cornerstoneapp:
+    build:
+      context: .
+      dockerfile: .dockerfile
+    container_name: cornerstone-app-lior-bashan
+    environment:
+      - ApplicationSettings__BaseUrl=https://restcountries.com
+      - ApplicationSettings__BearerToken=some_bearer_token

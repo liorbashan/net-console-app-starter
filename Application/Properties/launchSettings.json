@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Cornerstone": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ApplicationSettings__BaseUrl": "https://api.fda.gov",
+        "ApplicationSettings__BearerToken": "testBearer"
+      }
+    }
+  }
+}
